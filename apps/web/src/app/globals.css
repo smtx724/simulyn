@@ -886,3 +886,8 @@ code, pre, .font-mono, .monaco-editor { font-variant-ligatures: normal; font-fea
 :root[data-theme='midnight'] body { background-color: #000; }
 
 @media (max-width: 800px) { .simulyn-landing .site-nav .wordmark { font-size: 1.75rem; } }
+
+/* Full-bleed landing sections: match capabilities/laptop sections */
+.simulyn-landing .signal-section,
+.simulyn-landing .metrics-section,
+.simulyn-landing .final-section { max-width: none; }
